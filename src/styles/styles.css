@@ -31,3 +31,28 @@ body{
     background-size:cover;
 }
 
+main{
+    font-family: 'Ubuntu', sans-serif;
+    color: #A6A6A6;
+    font-size: 0.9rem;
+}
+
+._active__link{
+    color: #036BB9;
+}
+
+._field__email{
+    background-image: url(../images/email.svg);
+    background-repeat: no-repeat;
+    background-position: botton left;
+    padding-bottom: 5px;
+    background-size: 8%;
+}
+
+._field__senha{
+    background-image: url(../images/senha.svg);
+    background-repeat: no-repeat;
+    background-position: botton left;
+    padding-bottom: 5px;
+    background-size: 8%;
+}
