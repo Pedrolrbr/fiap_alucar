@@ -34,12 +34,15 @@
                     <img src="../images/alucar.png" alt="Logo Alucar" width="30%">
                 </div>
 
-                <div class="flex justify-center gap-8 mt-[20%]">
-                    <span class="underline-offset-8 text-sky-600 border-b-2 pb-2 border-sky-500">Login</span>
-                    <a href="login_cadastrar.html">Cadastrar</a>
+                <div class="flex justify-center gap-8 mt-[8%]">
+                    <span class="underline-offset-8 text-sky-600 border-b-2 pb-2 border-sky-500">Cadastrar</span>
                 </div>
 
-                <div class="flex flex-col px-8 pt-12 gap-8">
+                <div class="flex flex-col px-5 pt-12 gap-8">
+
+                    <div class="_field _field__usuario border-b-2 pl-6">
+                        <input type="text" placeholder="Nome de usuário" size="27" class="outline-none">
+                    </div>
 
                     <div class="_field _field__email border-b-2 pl-6">
                         <input type="text" placeholder="Email" size="27" class="outline-none">
@@ -48,27 +51,36 @@
                     <div class="_field _field__senha border-b-2 pl-6">
                         <input type="password" placeholder="Senha" size="27" class="outline-none">
                     </div>
+                </div>
 
+                <span class="text-xs px-5 text-gray-300 mb-3 mt-1">Pelo menos oito caracteres</span>
+
+                <div class="flex gap-1 justify-center mb-6">
+                    <div class="border-b-4 w-14"></div>
+                    <div class="border-b-4 w-14"></div>
+                    <div class="border-b-4 w-14"></div>
+                    <div class="border-b-4 w-14"></div>
+                </div>
+
+                </div>
+
+                <div>
                     <div class="flex justify-around">
-                        <div class="flex gap-1">
+                        <div class="flex gap-2">
                             <input type="checkbox" name="lembrar" id="lembrar">
-                            <label for="lembrar" class="text-xs">Lembrar senha</label>
+                            <label for="lembrar" class="text-sm">Aceito os <a href="#" class="text-sky-600"> Termos e
+                                    condições</a></label>
                         </div>
-
-                        <a href="#" class="text-sky-600 text-xs">Esqueci a senha</a>
-
                     </div>
 
-                    <a href="#" class="bg-sky-600 my-2 rounded-md py-2 flex justify-center text-white">Acessar</a>
+                    <a href="#"
+                        class="bg-sky-600 my-5 mx-5 rounded-md py-2 flex justify-center text-white">Cadastrar</a>
 
-                    <div name="redes" class="flex flex-col gap-4">
-                        <span class="flex justify-center">ou acesse com</span>
-                        <div class="flex gap-4 justify-center">
-                            <a href="https://www.facebook.com/login" target="_blank"><img src="../images/facebook.svg"></a>
-                            <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="../images/instagram.svg"></a>
-                            <a href="https://br.pinterest.com/login/" target="_blank"><img src="../images/pinterest.svg"></a>
-                            <a href="https://www.linkedin.com/login/" target="_blank"><img src="../images/linkedin.svg"></a>
-                        </div>
+                    <div name="redes" class="flex flex-col gap-1.5 mt-7">
+                        <span class="flex justify-center text-sm">Já possui uma conta?</span>
+                        <a href="login.html"
+                            class="border-2 border-sky-500 mx-5 rounded-md py-1.5 flex justify-center text-sky-500">Acessar</a>
+
 
                     </div>
                 </div>

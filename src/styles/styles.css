@@ -8,51 +8,38 @@
 }
 
 body{
-    color: #ffffff66;
-    font-family: 'Roboto', sans-serif;
-    background: #1a1a1a;
+    color: #A6A6A6;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9rem;
 }
 
-.__background-secondary-color{
-    background: #333333;
-}
-
-.__background-tertiary-color{
-    background: #33333366;
-}
-
-
-#menu:checked ~ #footer_menu{
-    display: flex;
-}
 
 .mockup{
     background-image: url(../images/iphone.png);
     background-size:cover;
 }
 
-main{
-    font-family: 'Ubuntu', sans-serif;
-    color: #A6A6A6;
-    font-size: 0.9rem;
+.mockup2{
+    background-image: url(../images/iphone2.png);
+    background-size:cover;
 }
 
-._active__link{
-    color: #036BB9;
+._field{
+    background-repeat: no-repeat;
+    background-position: botton left;
+    padding-bottom: 5px;
+    background-size: 8%;
+}
+
+._field__usuario{
+    background-image: url(../images/usuario.svg);
 }
 
 ._field__email{
     background-image: url(../images/email.svg);
-    background-repeat: no-repeat;
-    background-position: botton left;
-    padding-bottom: 5px;
-    background-size: 8%;
 }
 
 ._field__senha{
     background-image: url(../images/senha.svg);
-    background-repeat: no-repeat;
-    background-position: botton left;
-    padding-bottom: 5px;
-    background-size: 8%;
 }
+
