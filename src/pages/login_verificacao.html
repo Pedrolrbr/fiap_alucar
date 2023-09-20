@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FintechApp</title>
@@ -21,44 +22,47 @@
 
     <!-- Tailwindcss -->
     <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 
+<!-- Background -->
 <body class="min-h-screen p-8 bg-black bg-gradient-to-r from-pink-100 via-purple-300 to-indigo-400">
+
+    <!-- Mock iPhone -->
     <section class="mockup2 w-[353px] mx-auto h-[708px] flex justify-center px-[22px]">
 
-        <section class="mt-14 mb-28">
+        <!-- Screen -->
+        <section class="mt-12 flex flex-col w-[308px] h-[640px] rounded-b-[40px]">
 
-            <main class="flex flex-col px-6">
+            <main class="flex flex-col h-[550px] px-5">
 
                 <div class="flex justify-center pt-[10%]">
                     <img src="../images/alucar.png" alt="Logo Alucar" width="35%">
                 </div>
 
-                <div class="flex flex-col mt-14 gap-3">
-                    <span class="font-black text-3xl text-gray-700">Digite o código de verificação</span>
-                    <span class="text-xs text-gray-600">Digite o código que enviamos para o seu email.
-                        seuemail@dominio.com.br</span>
-                </div>
+                    <div class="flex flex-col mt-14 gap-3">
+                        <span class="font-black text-3xl text-gray-700">Digite o código de verificação</span>
+                        <span class="text-xs text-gray-600">Digite o código que enviamos para o seu email.
+                            seuemail@dominio.com.br</span>
+                    </div>
 
-                <div name="input" class="mt-12 flex justify-around">
-                    <input type="text" maxlength="1" size="4" class="border-2 rounded-md py-2 bg-sky-100 text-gray-700 font-black text-xl text-center">
-                    <input type="text" maxlength="1" size="4" class="border-2 rounded-md py-2 bg-sky-100 text-gray-700 font-black text-xl text-center">
-                    <input type="text" maxlength="1" size="4" class="border-2 rounded-md py-2 bg-sky-100 text-gray-700 font-black text-xl text-center">
-                    <input type="text" maxlength="1" size="4" class="border-2 rounded-md py-2 bg-sky-100 text-gray-700 font-black text-xl text-center">
-                </div>
+                    <div name="input" class="mt-12 flex justify-around">
+                        <input type="text" maxlength="1" size="4" class="border-2 rounded-md py-2 bg-sky-100 text-gray-700 font-black text-xl text-center">
+                        <input type="text" maxlength="1" size="4" class="border-2 rounded-md py-2 bg-sky-100 text-gray-700 font-black text-xl text-center">
+                        <input type="text" maxlength="1" size="4" class="border-2 rounded-md py-2 bg-sky-100 text-gray-700 font-black text-xl text-center">
+                        <input type="text" maxlength="1" size="4" class="border-2 rounded-md py-2 bg-sky-100 text-gray-700 font-black text-xl text-center">
+                    </div>
+                    <div class="flex flex-col gap-3 mt-10">
+                        <a href="login_conta_criada.html" class="bg-sky-600 rounded-md py-2 flex justify-center text-white">Confirmar</a>
+                        <a href="#" class="text-center text-sm text-sky-500">Reenviar código</a>
+                    </div>
 
-
-
-
-                <div class="flex flex-col gap-3 mt-10">
-                    <a href="login_conta_criada.html" class="bg-sky-600 rounded-md py-2 flex justify-center text-white">Confirmar</a>
-                    <a href="#" class="text-center text-sm text-sky-500">Reenviar código</a>
-                </div>
-
+            </div>
             </main>
         </section>
 
     </section>
+    
 </body>
 
 </html>

@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FintechApp</title>
@@ -21,78 +22,79 @@
 
     <!-- Tailwindcss -->
     <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 
+<!-- Background -->
 <body class="min-h-screen p-8 bg-black bg-gradient-to-r from-pink-100 via-purple-300 to-indigo-400">
+
+    <!-- Mock iPhone -->
     <section class="mockup2 w-[353px] mx-auto h-[708px] flex justify-center px-[22px]">
 
-        <section class="mt-14 flex flex-col gap-5">
+        <!-- Screen -->
+        <section class="mt-12 flex flex-col w-[308px] h-[640px] rounded-b-[40px]">
 
-            <main class="flex flex-col">
+            <main class="flex flex-col h-[550px] px-5">
 
                 <div class="flex justify-center pt-[10%]">
                     <img src="../images/alucar.png" alt="Logo Alucar" width="35%">
                 </div>
 
-
-                <div class="flex flex-col px-5 mt-14 gap-8">
-
-
-                    <a href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
-                        <img src="../images/localizacao.svg" width="20" class="self-center">
-                        <span>Localização</span>
-                        <img src="../images/arrow.svg" width="8" class="self-center">
-                    </a>
-
-                    <a href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
-                        <img src="../images/veiculo.svg" width="20" class="self-center">
-                        <span>Veículo</span>
-                        <img src="../images/arrow.svg" width="8" class="self-center">
-                    </a>
-
-                    <a href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
-                        <img src="../images/condicoes.svg" width="20" class="self-center">
-                        <span>Condições</span>
-                        <img src="../images/arrow.svg" width="8" class="self-center">
-                    </a>
-
-
-                </div>
-
-                <div name="resumo" class="flex flex-col mt-12 text-center">
-                    <span class="text-sm px-5 text-gray-500">Valor da locação:</span>
-                    <span class="text-xl px-5 text-gray-900 mb-3 mt-1">R$ 00,00 / hora</span>
+                    <div class="flex flex-col mt-14 gap-8">
+                        <a href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
+                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">share_location</i>
+                            <span>Localização</span>
+                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">chevron_right</i>
+                        </a>
+    
+                        <a href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
+                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">directions_car</i>
+                            <span>Veículo</span>
+                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">chevron_right</i>
+                        </a>
+    
+                        <a href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
+                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">task_alt</i>
+                            <span>Condições</span>
+                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">chevron_right</i>
+                        </a>
+                    </div>
+    
+                    <div name="resumo" class="flex flex-col mt-12 text-center">
+                        <span class="text-sm text-gray-500">Valor da locação:</span>
+                        <span class="text-xl text-gray-900 mb-3 mt-1">R$ 00,00 / hora</span>
+                    </div>
+    
+                    <div class="flex gap-2 mt-10 justify-center">
+                        <input type="checkbox" name="lembrar" id="lembrar">
+                        <label for="lembrar" class="text-sm">Aceito os <a href="#" class="text-sky-600"> Termos e
+                                condições</a></label>
+                    </div>
+    
+                    <a href="../index.html"
+                        class="mt-14 bg-sky-600 my-5 rounded-md py-2 flex justify-center text-white">Buscar</a>
                 </div>
                 
-
-                <div class="flex gap-2 mt-10 justify-center">
-                    <input type="checkbox" name="lembrar" id="lembrar">
-                    <label for="lembrar" class="text-sm">Aceito os <a href="#" class="text-sky-600"> Termos e condições</a></label>
-                </div>
-
-
-                <a href="../index.html" class="mt-14 bg-sky-600 my-5 mx-5 rounded-md py-2 flex justify-center text-white">Buscar</a>
-
             </main>
 
-            <footer class="grid grid-cols-4 gap-2">
+            <footer class="grid grid-cols-4 gap-2 mt-5 h-[55px] rounded-b-[15px]">
 
                 <a class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-black">search</i>
                     <span class="text-[11px] self-center text-black">Procurar</span>
                 </a>
 
-                <a href="home.html" class="flex flex-col justify-center gap-1">
+                <a href="disponibilizar.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">add_circle</i>
                     <span class="text-[11px] self-center text-gray-400">Disponibilizar</span>
                 </a>
 
-                <a href="home.html" class="flex flex-col justify-center gap-1">
+                <a href="contratos.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">format_quote</i>
                     <span class="text-[11px] self-center text-gray-400">Contratos</span>
                 </a>
 
-                <a href="home.html" class="flex flex-col justify-center gap-1">
+                <a href="perfil.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">person</i>
                     <span class="text-[11px] self-center text-gray-400">Perfil</span>
                 </a>
@@ -102,6 +104,7 @@
         </section>
 
     </section>
+
 </body>
 
 </html>
