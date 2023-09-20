@@ -43,3 +43,19 @@ body{
     background-image: url(../images/senha.svg);
 }
 
+._field__localizacao{
+    background-image: url(../images/localizacao.svg);
+}
+
+._field__veiculo{
+    background-image: url(../images/veiculo.svg);
+}
+
+._field__condicoes{
+    background-image: url(../images/condicoes.svg);
+}
+
+._field__arrow{
+    background-image: url(../images/condicoes.svg);
+    background-position: right;
+}
