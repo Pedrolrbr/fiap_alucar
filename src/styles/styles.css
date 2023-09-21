@@ -13,6 +13,20 @@ body{
     font-size: 0.9rem;
 }
 
+.text-gray-300 { 
+    color: #000000;
+    font-size: 16px;
+}
+
+
+.text-gray-500 { 
+    color: #000000;
+    font-size: 13px;
+}
+
+.text-gray-900 {
+    font-size: 11px;
+}
 
 .mockup{
     background-image: url(../images/iphone.png);
