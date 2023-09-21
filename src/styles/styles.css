@@ -18,7 +18,6 @@ body{
     font-size: 16px;
 }
 
-
 .text-gray-500 { 
     color: #000000;
     font-size: 13px;
@@ -38,38 +37,6 @@ body{
     background-size:cover;
 }
 
-._field{
-    background-repeat: no-repeat;
-    background-position: botton left;
-    padding-bottom: 5px;
-    background-size: 8%;
-}
-
-._field__usuario{
-    background-image: url(../images/usuario.svg);
-}
-
-._field__email{
-    background-image: url(../images/email.svg);
-}
-
-._field__senha{
-    background-image: url(../images/senha.svg);
-}
-
-._field__localizacao{
-    background-image: url(../images/localizacao.svg);
-}
-
-._field__veiculo{
-    background-image: url(../images/veiculo.svg);
-}
-
-._field__condicoes{
-    background-image: url(../images/condicoes.svg);
-}
-
-._field__arrow{
-    background-image: url(../images/condicoes.svg);
-    background-position: right;
+._font_inter{
+    font-family: 'Inter', sans-serif;
 }
