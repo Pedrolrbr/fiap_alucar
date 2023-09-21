@@ -13,6 +13,20 @@ body{
     font-size: 0.9rem;
 }
 
+.text-gray-300 { 
+    color: #000000;
+    font-size: 16px;
+}
+
+.text-gray-500 { 
+    color: #000000;
+    font-size: 13px;
+}
+
+.text-gray-900 {
+    font-size: 11px;
+}
+
 .mockup{
     background-image: url(../images/iphone.png);
     background-size:cover;
@@ -22,6 +36,7 @@ body{
     background-image: url(../images/iphone2.png);
     background-size:cover;
 }
+
 
 ._field{
     background-repeat: no-repeat;
@@ -57,4 +72,8 @@ body{
 ._field__arrow{
     background-image: url(../images/condicoes.svg);
     background-position: right;
+
+._font_inter{
+    font-family: 'Inter', sans-serif;
+
 }
