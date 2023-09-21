@@ -13,8 +13,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Ubuntu&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Google Icons -->
     <link rel="stylesheet"
@@ -40,41 +39,55 @@
                     <img src="../images/alucar.png" alt="Logo Alucar" width="35%">
                 </div>
 
-                    <div class="flex flex-col mt-14 gap-8">
-                        <a href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
-                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">directions_car</i>
-                            <span>Veículo</span>
-                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">chevron_right</i>
-                        </a>
+                    <section class="flex flex-col mt-16 gap-8">
 
-                        <a href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
-                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">task_alt</i>
+                        <div href="#" class="grid grid-cols-[30px,auto,10px] border-b-2 pb-1">
+                            <i class="material-symbols-outlined self-center text-gray-700 text-[20px] w-full">directions_car</i>
+                            <input list="veiculo" name="veiculo" placeholder="Veículo" class="outline-none text-gray-700">
+                            <datalist id="veiculo">
+                                <option value="Meu veículo 1">
+                                <option value="Meu veículo 2">
+                            </datalist>
+                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">keyboard_arrow_down</i>
+                        </div>
+
+                        <a href="disponibilizar_condicoes.html" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
+                            <i class="material-symbols-outlined self-center text-gray-700 text-[20px]">task_alt</i>
                             <span>Condições</span>
                             <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">chevron_right</i>
                         </a>
 
-                        <a href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
-                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">attach_money</i>
-                            <span>Valor (R$/ hora)</span>
-                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">unfold_more</i>
-                        </a>
+                        <div href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
+                            <i class="material-symbols-outlined self-center text-gray-700 text-[20px]">attach_money</i>
+                            <input type="text" onKeyUp="mascaraMoeda(this, event)" size="12" value="" name="valor" placeholder="R$ / hora" class="outline-none text-gray-700">
+                        </div>
 
                         <a href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
-                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">pace</i>
-                            <span>Fração Tempo</span>
-                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">chevron_right</i>
+                            <i class="material-symbols-outlined self-center text-gray-700 text-[20px]">pace</i>
+                            <input list="tempo" name="tempo" placeholder="Fração de tempo" class="outline-none text-gray-700">
+                            <datalist id="tempo">
+                                <option value="Por hora">
+                                <option value="Por dia">
+                                <option value="Por semana">
+                                <option value="Por mês">
+                            </datalist>
+                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">keyboard_arrow_down</i>
                         </a>
-                    </div>
 
-                    <div class="flex gap-2 mt-10 justify-center">
-                        <input type="checkbox" name="lembrar" id="lembrar">
-                        <label for="lembrar" class="text-sm">Aceito os <a href="../pages/disponibilizar_condicoes.html" class="text-blue-600 dark:text-blue-500 hover:underline"> Termos e
+                    </section>
+
+
+                    <div class="flex gap-2 mt-16 justify-center items-center">
+                        <input type="checkbox" name="aceito" id="aceito" class="h-4 w-4">
+                        <label for="aceito">Aceito os <a href="../pages/disponibilizar_condicoes.html" class="text-blue-600 dark:text-blue-500 hover:underline"> Termos e
                                 condições</a></label>
                     </div>
 
                     <a href="../index.html"
-                        class="mt-14 bg-sky-600 my-5 rounded-md py-2 flex justify-center text-white">Buscar
+                        class="mt-16 bg-sky-600 my-5 rounded-md py-2 flex justify-center text-white">Buscar
                     </a>
+
+
             </main>
 
             <footer class="grid grid-cols-4 gap-2 mt-5 h-[55px] rounded-b-[15px]">
@@ -105,6 +118,7 @@
 
     </section>
 
+    <script src="../scripts/script.js"></script>
 </body>
 
 </html>
