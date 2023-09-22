@@ -13,24 +13,26 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Google Icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <!-- Tailwindcss -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
 </head>
 
 <!-- Background -->
+
 <body class="min-h-screen p-8 bg-black bg-gradient-to-r from-pink-100 via-purple-300 to-indigo-400">
 
     <!-- Mock iPhone -->
-    <section class="mockup2 w-[353px] mx-auto h-[708px] flex justify-center px-[22px]">
+    <section class="__mockup__iphone__navbar">
 
         <!-- Screen -->
-        <section class="mt-12 flex flex-col w-[308px] h-[640px] rounded-b-[40px]">
+        <section class="__screen">
 
             <header class="h-[70px] px-5">
                 <div class="flex justify-center pt-[10%]">
@@ -38,116 +40,118 @@
                 </div>
             </header>
 
-            <main class="flex flex-col h-[480px] px-6 overflow-y-scroll _hide_scroll_bar">
+            <main class="text-[0.875rem] flex flex-col h-[480px] px-6 overflow-y-scroll __hide__scroll__bar">
 
                 <section name="ativos">
-                    <h3 class="px-3 text-gray-800 font-bold text-xs my-4">Ativos</h3>
-                    
+                    <h3 class="px-3 font-bold my-4">Ativos</h3>
+
                     <div class="flex flex-col gap-8">
 
-                        <div name="contrato1" class="bg-white grid grid-cols-[auto,30%] border-[1.5px] rounded-xl border-gray-600 drop-shadow-[0px_1px_2px_rgba(0,0,0,0.45)]">
+                        <div name="contrato1"
+                            class="border-slate-400 bg-white grid grid-cols-[auto,30%] border-[1.5px] rounded-xl drop-shadow-[0px_1px_2px_rgba(0,0,0,0.45)]">
                             <div name="esquerda" class="flex flex-col gap-2">
-                                <h4 name="status" class="ml-3 mt-2 text-gray-800 font-bold text-xs">Disponibilizado</h4>
-                                <p class="ml-3 mt-2 text-gray-600 text-[11px]">Dom. 21 maio de 2023 - 09:41</p>
+                                <h4 name="status" class="ml-3 mt-2 font-bold text-xs">Disponibilizado</h4>
+                                <p class="ml-3 mt-2 text-[0.7rem]">Dom. 21 maio de 2023 - 09:41</p>
                                 <div class="flex ml-3 mt-2 gap-2">
-                                    <i class="material-symbols-outlined text-gray-700 text-[20px]">directions_car</i>
+                                    <i class="text-[1.3rem] material-symbols-outlined">directions_car</i>
                                     <div class="flex flex-col">
-                                        <span name="modelo" class="text-[11px] text-gray-600">Fiat Argo Trekking 1.4</span>
+                                        <span name="modelo" class="text-[0.7rem]">Fiat Argo Trekking 1.4</span>
                                         <div>
-                                            <span name="cor" class="text-[11px] text-gray-600">Cinza</span>
-                                            <span class="text-[11px] text-gray-600">-</span>
-                                            <span name="placa" class="text-[11px] text-gray-600">FB*-**297</span>
+                                            <span name="cor" class="text-[0.7rem]">Cinza</span>
+                                            <span class="text-[0.7rem] text-gray-600">-</span>
+                                            <span name="placa" class="text-[0.7rem]">FB*-**297</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="flex ml-3 mt-2 gap-2 mb-2">
-                                    <i class="material-symbols-outlined text-gray-700 text-[20px]">price_check</i>
+                                    <i class="text-[1.3rem] material-symbols-outlined">price_check</i>
                                     <div class="flex">
-                                        <label class="text-[11px] text-gray-600">Valor obtido:&nbsp</label>
-                                        <span name="valor_obtido" class="text-[11px] text-gray-600">R$ 275,00</span>
+                                        <label class="text-[0.7rem]">Valor obtido:&nbsp</label>
+                                        <span name="valor_obtido" class="text-[0.7rem]">R$ 275,00</span>
                                     </div>
                                 </div>
                             </div>
                             <div name="direita" class="flex flex-col justify-center">
                                 <a href="#" class="flex flex-col justify-center items-center">
-                                    <i class="material-symbols-outlined text-gray-800 text-2xl">front_hand</i>
-                                    <span class="text-gray-800 text-xs">Finalizar</span>
+                                    <i class="material-symbols-outlined text-2xl">front_hand</i>
+                                    <span class="text-xs">Finalizar</span>
                                 </a>
                             </div>
                         </div>
 
 
-                        <div name="contrato2" class="bg-white grid grid-cols-[auto,30%] border-[1.5px] rounded-xl border-gray-600 drop-shadow-[0px_1px_2px_rgba(0,0,0,0.45)]">
+                        <div name="contrato2"
+                            class="border-slate-400 bg-white grid grid-cols-[auto,30%] border-[1.5px] rounded-xl drop-shadow-[0px_1px_2px_rgba(0,0,0,0.45)]">
                             <div name="esquerda" class="flex flex-col gap-2">
-                                <h4 name="status" class="ml-3 mt-2 text-gray-800 font-bold text-xs">Alugado</h4>
-                                <p class="ml-3 mt-2 text-gray-600 text-[11px]">Seg. 22 maio de 2023 - 09:41</p>
+                                <h4 name="status" class="ml-3 mt-2 font-bold text-xs">Alugado</h4>
+                                <p class="ml-3 mt-2 text-[0.7rem]">Seg. 22 maio de 2023 - 09:41</p>
                                 <div class="flex ml-3 mt-2 gap-2">
-                                    <i class="material-symbols-outlined text-gray-700 text-[20px]">directions_car</i>
+                                    <i class="text-[1.3rem] material-symbols-outlined">directions_car</i>
                                     <div class="flex flex-col">
-                                        <span name="modelo" class="text-[11px] text-gray-600">Toyota Corolla XEI</span>
+                                        <span name="modelo" class="text-[0.7rem]">Toyota Corolla XEI</span>
                                         <div>
-                                            <span name="cor" class="text-[11px] text-gray-600">Preto</span>
-                                            <span class="text-[11px] text-gray-600">-</span>
-                                            <span name="placa" class="text-[11px] text-gray-600">KD*-**170</span>
+                                            <span name="cor" class="text-[0.7rem]">Preto</span>
+                                            <span class="text-[0.7rem] text-gray-600">-</span>
+                                            <span name="placa" class="text-[0.7rem]">KD*-**170</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="flex ml-3 mt-2 gap-2 mb-2">
-                                    <i class="material-symbols-outlined text-gray-700 text-[20px]">price_check</i>
+                                    <i class="text-[1.3rem] material-symbols-outlined">price_check</i>
                                     <div class="flex">
-                                        <label class="text-[11px] text-gray-600">Valor à pagar:&nbsp</label>
-                                        <span name="valor_obtido" class="text-[11px] text-gray-600">R$ 140,00</span>
+                                        <label class="text-[0.7rem]">Valor obtido:&nbsp</label>
+                                        <span name="valor_obtido" class="text-[0.7rem]">R$ 140,00</span>
                                     </div>
                                 </div>
                             </div>
                             <div name="direita" class="flex flex-col justify-center">
                                 <a href="#" class="flex flex-col justify-center items-center">
-                                    <i class="material-symbols-outlined text-gray-800 text-2xl">front_hand</i>
-                                    <span class="text-gray-800 text-xs">Finalizar</span>
+                                    <i class="material-symbols-outlined text-2xl">front_hand</i>
+                                    <span class="text-xs">Finalizar</span>
                                 </a>
                             </div>
                         </div>
 
                     </div>
-                    
+
                 </section>
 
 
                 <section name="historico" class="mb-6">
-                    <h3 class="px-3 text-gray-400 font-bold text-xs my-4 mt-8">Histórico</h3>
+                    <h3 class="text-slate-400 px-3 font-bold my-4 mt-8">Histórico</h3>
 
                     <div class="flex flex-col gap-8">
 
-                        <div name="contrato3" class="bg-white grid grid-cols-[auto,30%] border-[1.5px] rounded-xl border-gray-300 text-gray-300 drop-shadow-[0px_1px_2px_rgba(0,0,0,0.45)]">
-                            <div name="esquerda" class="flex flex-col gap-2">
+
+                        <div name="contrato3"
+                            class="border-slate-400 bg-white grid grid-cols-[auto,30%] border-[1.5px] rounded-xl drop-shadow-[0px_1px_2px_rgba(0,0,0,0.45)]">
+                            <div name="esquerda" class="flex flex-col gap-2 text-slate-400">
                                 <h4 name="status" class="ml-3 mt-2 font-bold text-xs">Disponibilizado</h4>
-                                <p class="ml-3 mt-2 text-[11px]">Dom. 21 maio de 2023 - 09:41</p>
+                                <p class="ml-3 mt-2 text-[0.7rem]">Dom. 21 maio de 2023 - 09:41</p>
                                 <div class="flex ml-3 mt-2 gap-2">
-                                    <i class="material-symbols-outlined text-gray-300 text-[20px]">directions_car</i>
+                                    <i class="text-slate-400 text-[1.3rem] material-symbols-outlined">directions_car</i>
                                     <div class="flex flex-col">
-                                        <span name="modelo" class="text-[11px] ">Fiat Argo Trekking 1.4</span>
+                                        <span name="modelo" class="text-[0.7rem]">Fiat Argo Trekking</span>
                                         <div>
-                                            <span name="cor" class="text-[11px]">Cinza</span>
-                                            <span class="text-[11px]">-</span>
-                                            <span name="placa" class="text-[11px]">FB*-**297</span>
+                                            <span name="cor" class="text-[0.7rem]">Cinza</span>
+                                            <span class="text-[0.7rem] text-gray-600">-</span>
+                                            <span name="placa" class="text-[0.7rem]">FB*-**297</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="flex ml-3 mt-2 gap-2 mb-2">
-                                    <i class="material-symbols-outlined text-gray-300 text-[20px]">price_check</i>
+                                    <i class="text-slate-400 text-[1.3rem] material-symbols-outlined">price_check</i>
                                     <div class="flex">
-                                        <label class="text-[11px]">Valor obtido:&nbsp</label>
-                                        <span name="valor_obtido" class="text-[11px]">R$ 275,00</span>
+                                        <label class="text-[0.7rem]">Valor obtido:&nbsp</label>
+                                        <span name="valor_obtido" class="text-[0.7rem]">R$ 275,00</span>
                                     </div>
                                 </div>
                             </div>
-                            <div name="direita" class="flex flex-col justify-center">
-
-                            </div>
                         </div>
 
+
                     </div>
-                
+
                 </section>
 
 
@@ -156,19 +160,19 @@
             <footer class="grid grid-cols-4 gap-2 mt-5 h-[55px] rounded-b-[15px]">
                 <a href="home.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">search</i>
-                    <span class="text-[11px] self-center text-gray-400">Procurar</span>
+                    <span class="text-[0.7rem] self-center text-gray-400">Procurar</span>
                 </a>
                 <a href="disponibilizar.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">add_circle</i>
-                    <span class="text-[11px] self-center text-gray-400">Disponibilizar</span>
+                    <span class="text-[0.7rem] self-center text-gray-400">Disponibilizar</span>
                 </a>
                 <a class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-black">format_quote</i>
-                    <span class="text-[11px] self-center text-black">Contratos</span>
+                    <span class="text-[0.7rem] self-center text-black">Contratos</span>
                 </a>
                 <a href="perfil.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">person</i>
-                    <span class="text-[11px] self-center text-gray-400">Perfil</span>
+                    <span class="text-[0.7rem] self-center text-gray-400">Perfil</span>
                 </a>
             </footer>
 

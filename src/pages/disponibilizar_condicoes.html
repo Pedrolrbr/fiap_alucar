@@ -13,7 +13,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Google Icons -->
     <link rel="stylesheet"
@@ -25,14 +25,15 @@
 </head>
 
 <!-- Background -->
+
 <body class="min-h-screen p-8 bg-black bg-gradient-to-r from-pink-100 via-purple-300 to-indigo-400">
 
     <!-- Mock iPhone -->
-    <section class="mockup2 w-[353px] mx-auto h-[708px] flex justify-center px-[22px]">
+    <section class="__mockup__iphone__navbar">
 
         <!-- Screen -->
-        <section class="mt-12 flex flex-col w-[308px] h-[640px] rounded-b-[40px]">
-            
+        <section class="__screen">
+
 
             <header class="grid grid-cols-[25%,auto,25%] my-3 mx-2 h-[20px]">
                 <a href="disponibilizar.html" class="flex">
@@ -44,52 +45,55 @@
 
 
             <main class="flex flex-col h-[506px] px-5">
-                
+
                 <section class="flex flex-col mt-10 gap-10">
 
                     <div name="condicao1" class="flex flex-col gap-4 ml-2">
-                        <h4 class="text-xs text-gray-700">Como deseja disponibilizar o veículo?</h4>
+                        <h4>Como deseja disponibilizar o veículo?</h4>
                         <div class="flex items-center ml-2 gap-2">
                             <input id="option1-1" type="radio" name="disponibilidade1" value="option1" class="w-4 h-4">
-                            <label for="option1-1" class="text-xs text-gray-500">Por hora.</label>
+                            <label for="option1-1" class="text-xs">Por hora.</label>
                         </div>
                         <div class="flex items-center ml-2 gap-2">
                             <input id="option1-2" type="radio" name="disponibilidade1" value="option2" class="w-4 h-4">
-                            <label for="option1-2" class="text-xs text-gray-500">Por dia.</label>
+                            <label for="option1-2" class="text-xs">Por dia.</label>
                         </div>
                     </div>
-                    
+
                     <div name="condicao2" class="flex flex-col gap-4 ml-2">
-                        <h4 class="text-xs text-gray-700">Disponibilizar apenas para a mesma cidade?</h4>
+                        <h4>Disponibilizar apenas para a mesma cidade?</h4>
                         <div class="flex items-center ml-2 gap-2">
                             <input id="option2-1" type="radio" name="disponibilidade2" value="option1" class="w-4 h-4">
-                            <label for="option2-1" class="text-xs text-gray-500">Sim, apenas para município.</label>
+                            <label for="option2-1" class="text-xs">Sim, apenas para município.</label>
                         </div>
                         <div class="flex items-center ml-2 gap-2">
                             <input id="option2-2" type="radio" name="disponibilidade2" value="option2" class="w-4 h-4">
-                            <label for="option2-2" class="text-xs text-gray-500">Não, disponibilidade livre.</label>
+                            <label for="option2-2" class="text-xs">Não, disponibilidade livre.</label>
                         </div>
                     </div>
-                    
+
                     <div name="condicao3" class="flex flex-col gap-4 ml-2">
-                        <h4 class="text-xs text-gray-700">Prefere receber o veículo em mãos?</h4>
+                        <h4>Prefere receber o veículo em mãos?</h4>
                         <div class="flex items-center ml-2 gap-2">
                             <input id="option3-1" type="radio" name="disponibilidade3" value="option1" class="w-4 h-4">
-                            <label for="option3-1" class="text-xs text-gray-500">Sim, receber o veículo em mãos.</label>
+                            <label for="option3-1" class="text-xs">Sim, receber o veículo em mãos.</label>
                         </div>
                         <div class="flex items-center ml-2 gap-2">
                             <input id="option3-2" type="radio" name="disponibilidade3" value="option2" class="w-4 h-4">
-                            <label for="option3-2" class="text-xs text-gray-500">Receber em um dos <a href="#" class="text-sky-600">pontos de entrega</a>.</label>
+                            <label for="option3-2" class="text-xs">Receber em um dos <a href="#"
+                                    class="text-sky-600">pontos de entrega</a>.</label>
                         </div>
                     </div>
 
                 </section>
 
 
-                <a href="#" class="self-end mt-12 bg-sky-600 rounded-full w-16 h-16 text-white flex justify-center items-center"><i class="material-symbols-outlined self-center text-white text-3xl">done</i></a>
+                <a href="#"
+                    class="self-end mt-12 bg-sky-600 rounded-full w-16 h-16 text-white flex justify-center items-center"><i
+                        class="material-symbols-outlined self-center text-white text-3xl">done</i></a>
 
 
-                </main>
+            </main>
             </main>
 
 
@@ -97,22 +101,22 @@
 
                 <a href="home.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">search</i>
-                    <span class="text-[11px] self-center text-gray-400">Procurar</span>
+                    <span class="text-[0.7rem] self-center text-gray-400">Procurar</span>
                 </a>
 
                 <a class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-black">add_circle</i>
-                    <span class="text-[11px] self-center text-black">Disponibilizar</span>
+                    <span class="text-[0.7rem] self-center text-black">Disponibilizar</span>
                 </a>
 
                 <a href="contratos.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">format_quote</i>
-                    <span class="text-[11px] self-center text-gray-400">Contratos</span>
+                    <span class="text-[0.7rem] self-center text-gray-400">Contratos</span>
                 </a>
 
                 <a href="perfil.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">person</i>
-                    <span class="text-[11px] self-center text-gray-400">Perfil</span>
+                    <span class="text-[0.7rem] self-center text-gray-400">Perfil</span>
                 </a>
 
             </footer>

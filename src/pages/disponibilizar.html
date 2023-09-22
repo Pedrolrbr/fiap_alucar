@@ -13,7 +13,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Google Icons -->
     <link rel="stylesheet"
@@ -21,17 +21,18 @@
 
     <!-- Tailwindcss -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
 </head>
 
 <!-- Background -->
+
 <body class="min-h-screen p-8 bg-black bg-gradient-to-r from-pink-100 via-purple-300 to-indigo-400">
 
     <!-- Mock iPhone -->
-    <section class="mockup2 w-[353px] mx-auto h-[708px] flex justify-center px-[22px]">
+    <section class="__mockup__iphone__navbar">
 
         <!-- Screen -->
-        <section class="mt-12 flex flex-col w-[308px] h-[640px] rounded-b-[40px]">
+        <section class="__screen">
 
             <main class="flex flex-col h-[550px] px-5">
 
@@ -39,53 +40,62 @@
                     <img src="../images/alucar.png" alt="Logo Alucar" width="35%">
                 </div>
 
-                    <section class="flex flex-col mt-16 gap-8">
+                <section class="flex flex-col mt-16 gap-8">
 
-                        <div href="#" class="grid grid-cols-[30px,auto,10px] border-b-2 pb-1">
-                            <i class="material-symbols-outlined self-center text-gray-700 text-[20px] w-full">directions_car</i>
-                            <input list="veiculo" name="veiculo" placeholder="Veículo" class="outline-none text-gray-700">
-                            <datalist id="veiculo">
-                                <option value="Meu veículo 1">
-                                <option value="Meu veículo 2">
-                            </datalist>
-                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">keyboard_arrow_down</i>
-                        </div>
-
-                        <a href="disponibilizar_condicoes.html" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
-                            <i class="material-symbols-outlined self-center text-gray-700 text-[20px]">task_alt</i>
-                            <span>Condições</span>
-                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">chevron_right</i>
-                        </a>
-
-                        <div href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
-                            <i class="material-symbols-outlined self-center text-gray-700 text-[20px]">attach_money</i>
-                            <input type="text" onKeyUp="mascaraMoeda(this, event)" size="12" value="" name="valor" placeholder="R$ / hora" class="outline-none text-gray-700">
-                        </div>
-
-                        <a href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
-                            <i class="material-symbols-outlined self-center text-gray-700 text-[20px]">pace</i>
-                            <input list="tempo" name="tempo" placeholder="Fração de tempo" class="outline-none text-gray-700">
-                            <datalist id="tempo">
-                                <option value="Por hora">
-                                <option value="Por dia">
-                                <option value="Por semana">
-                                <option value="Por mês">
-                            </datalist>
-                            <i class="material-symbols-outlined self-center text-gray-400 text-[20px]">keyboard_arrow_down</i>
-                        </a>
-
-                    </section>
-
-
-                    <div class="flex gap-2 mt-16 justify-center items-center">
-                        <input type="checkbox" name="aceito" id="aceito" class="h-4 w-4">
-                        <label for="aceito">Aceito os <a href="../pages/disponibilizar_condicoes.html" class="text-sky-600"> Termos e
-                                condições</a></label>
+                    <div href="#" class="grid grid-cols-[30px,auto,10px] border-b-2 pb-1">
+                        <i
+                            class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center w-full">directions_car</i>
+                        <input list="veiculo" name="veiculo" placeholder="Veículo"
+                            class="placeholder-slate-400 outline-none">
+                        <datalist id="veiculo">
+                            <option value="Meu veículo 1">
+                            <option value="Meu veículo 2">
+                        </datalist>
+                        <i
+                            class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center">keyboard_arrow_down</i>
                     </div>
 
-                    <a href="../index.html"
-                        class="mt-16 bg-sky-600 my-5 rounded-md py-2 flex justify-center text-white">Buscar
+                    <a href="disponibilizar_condicoes.html" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
+                        <i
+                            class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center w-full">task_alt</i>
+                        <span>Condições</span>
+                        <i class="text-[1.3rem] material-symbols-outlined self-center">navigate_next</i>
                     </a>
+
+                    <div href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
+                        <i
+                            class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center w-full">attach_money</i>
+                        <input type="text" onKeyUp="mascaraMoeda(this, event)" size="12" value="" name="valor"
+                            placeholder="R$ / hora" class="placeholder-slate-400 outline-none">
+                    </div>
+
+                    <a href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
+                        <i class="text-[1.3rem] material-symbols-outlined self-center w-full">pace</i>
+                        <input list="tempo" name="tempo" placeholder="Fração de tempo"
+                            class="placeholder-slate-400 outline-none">
+                        <datalist id="tempo">
+                            <option value="Por hora">
+                            <option value="Por dia">
+                            <option value="Por semana">
+                            <option value="Por mês">
+                        </datalist>
+                        <i
+                            class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center">keyboard_arrow_down</i>
+                    </a>
+
+                </section>
+
+
+                <div class="flex gap-2 mt-16 justify-center items-center">
+                    <input type="checkbox" name="aceito" id="aceito" class="h-4 w-4">
+                    <label for="aceito">Aceito os <a href="../pages/disponibilizar_condicoes.html" class="text-sky-600">
+                            Termos e
+                            condições</a></label>
+                </div>
+
+                <a href="../index.html"
+                    class="mt-16 bg-sky-600 my-5 rounded-md py-2 flex justify-center text-white">Buscar
+                </a>
 
 
             </main>
@@ -94,22 +104,22 @@
 
                 <a href="home.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">search</i>
-                    <span class="text-[11px] self-center text-gray-400">Procurar</span>
+                    <span class="text-[0.7rem] self-center text-gray-400">Procurar</span>
                 </a>
 
                 <a class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-black">add_circle</i>
-                    <span class="text-[11px] self-center text-black">Disponibilizar</span>
+                    <span class="text-[0.7rem] self-center text-black">Disponibilizar</span>
                 </a>
 
                 <a href="contratos.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">format_quote</i>
-                    <span class="text-[11px] self-center text-gray-400">Contratos</span>
+                    <span class="text-[0.7rem] self-center text-gray-400">Contratos</span>
                 </a>
 
                 <a href="perfil.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">person</i>
-                    <span class="text-[11px] self-center text-gray-400">Perfil</span>
+                    <span class="text-[0.7rem] self-center text-gray-400">Perfil</span>
                 </a>
 
             </footer>

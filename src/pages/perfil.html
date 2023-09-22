@@ -13,7 +13,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Google Icons -->
     <link rel="stylesheet"
@@ -21,46 +21,50 @@
 
     <!-- Tailwindcss -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
 </head>
 
 <!-- Background -->
+
 <body class="min-h-screen p-8 bg-black bg-gradient-to-r from-pink-100 via-purple-300 to-indigo-400">
 
     <!-- Mock iPhone -->
-    <section class="mockup2 w-[353px] mx-auto h-[708px] flex justify-center px-[22px]">
+    <section class="__mockup__iphone__navbar">
 
         <!-- Screen -->
-        <section class="mt-12 flex flex-col w-[308px] h-[640px] rounded-b-[40px]">
+        <section class="__screen">
+
+
             <header class="flex justify-center my-3 mx-2 h-[20px]">
                 <h2 class="font-bold text-black text-xs flex justify-center items-center">Perfil</h2>
             </header>
 
             <main class="flex flex-col h-[506px]">
-                
+
                 <section class="flex flex-col items-center p-5">
 
                     <div class="relative">
                         <img src="../images/foto.png" alt="Ícone com sua foto">
                         <i class="absolute bottom-3 right-2 material-symbols-outlined text-black">photo_camera</i>
                     </div>
-                    <h1 class="font-bold text-black text-[24px] my-0.5">Nome Sobrenome</h1>
-                    <p class="text-black text-xs my-1">Membro desde: 01/01/2023</p>
+                    <h1 class="font-bold text-[24px] my-0.5">Nome Sobrenome</h1>
+                    <p class="text-xs my-1">Membro desde: 01/01/2023</p>
 
                 </section>
 
 
                 <section class="flex flex-col">
 
-                    <h4 class="px-5 py-1 font-bold text-xs text-black bg-gray-100 w-[]">Cadastro</h4>
-            
+                    <h4 class="px-5 py-1 font-bold text-xs bg-gray-100 w-[]">Cadastro</h4>
+
                     <a href="perfil_dados.html" class="flex flex-col px-5 py-2 justify-center">
                         <div class="flex flex-row justify-between items-center">
                             <div class="flex flex-row items-center gap-3">
-                                <i class="material-symbols-outlined text-black font-bold">person</i>
-                                <p class="font-medium text-xs text-black">Dados pessoais</p>
+                                <i class="material-symbols-outlined">person</i>
+                                <p class="text-xs">Dados pessoais</p>
                             </div>
-                            <i class="material-symbols-outlined text-gray-500 font-bold">navigate_next</i>
+                            <i
+                                class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center">navigate_next</i>
                         </div>
                     </a>
 
@@ -68,10 +72,11 @@
                     <a href="perfil_veiculos.html" class="flex flex-col px-5 py-2 justify-center">
                         <div class="flex flex-row justify-between items-center">
                             <div class="flex flex-row items-center gap-3">
-                                <i class="material-symbols-outlined text-black font-bold">directions_car</i>
-                                <p class="font-medium text-xs text-black">Veículos</p>
+                                <i class="material-symbols-outlined">directions_car</i>
+                                <p class="text-xs">Veículos</p>
                             </div>
-                            <i class="material-symbols-outlined text-gray-500 font-bold">navigate_next</i>
+                            <i
+                                class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center">navigate_next</i>
                         </div>
                     </a>
 
@@ -79,24 +84,26 @@
                     <a href="perfil_cartoes.html" class="flex flex-col px-5 py-2 pb-6 justify-center">
                         <div class="flex flex-row justify-between items-center">
                             <div class="flex flex-row items-center gap-3">
-                                <i class="material-symbols-outlined text-black font-bold">credit_card</i>
-                                <p class="font-medium text-xs text-black">Cartões de Crédito</p>
+                                <i class="material-symbols-outlined">credit_card</i>
+                                <p class="text-xs">Cartões de Crédito</p>
                             </div>
-                            <i class="material-symbols-outlined text-gray-500 font-bold">navigate_next</i>
+                            <i
+                                class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center">navigate_next</i>
                         </div>
                     </a>
 
 
-                    <h4 class="px-5 py-1 font-bold text-xs text-black bg-gray-100 w-[]">Preferências</h4>
-                    
-                    
+                    <h4 class="px-5 py-1 font-bold text-xs bg-gray-100 w-[]">Preferências</h4>
+
+
                     <a href="perfil_idioma.html" class="flex flex-col px-5 py-2 justify-center">
                         <div class="flex flex-row justify-between items-center">
                             <div class="flex flex-row items-center gap-3">
-                                <i class="material-symbols-outlined text-black font-bold">translate</i>
-                                <p class="font-medium text-xs text-black">Idioma</p>
+                                <i class="material-symbols-outlined">translate</i>
+                                <p class="text-xs">Idioma</p>
                             </div>
-                            <i class="material-symbols-outlined text-gray-500 font-bold">navigate_next</i>
+                            <i
+                                class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center">navigate_next</i>
                         </div>
                     </a>
 
@@ -104,8 +111,8 @@
                     <a class="flex flex-col px-5 py-2 justify-center" href="#">
                         <div class="flex flex-row justify-between items-center">
                             <div class="flex flex-row items-center gap-3">
-                                <i class="material-symbols-outlined text-black font-bold">dark_mode</i>
-                                <p class="font-medium text-xs text-black">Modo noturno</p>
+                                <i class="material-symbols-outlined">dark_mode</i>
+                                <p class="text-xs">Modo noturno</p>
                             </div>
                         </div>
                     </a>
@@ -117,19 +124,19 @@
             <footer class="grid grid-cols-4 gap-2 mt-5 h-[55px] rounded-b-[15px]">
                 <a href="home.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">search</i>
-                    <span class="text-[11px] self-center text-gray-400">Procurar</span>
+                    <span class="text-[0.7rem] self-center text-gray-400">Procurar</span>
                 </a>
                 <a href="disponibilizar.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">add_circle</i>
-                    <span class="text-[11px] self-center text-gray-400">Disponibilizar</span>
+                    <span class="text-[0.7rem] self-center text-gray-400">Disponibilizar</span>
                 </a>
                 <a href="contratos.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">format_quote</i>
-                    <span class="text-[11px] self-center text-gray-400">Contratos</span>
+                    <span class="text-[0.7rem] self-center text-gray-400">Contratos</span>
                 </a>
                 <a class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-black">person</i>
-                    <span class="text-[11px] self-center text-black">Perfil</span>
+                    <span class="text-[0.7rem] self-center text-black">Perfil</span>
                 </a>
             </footer>
 

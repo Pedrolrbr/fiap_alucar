@@ -13,10 +13,11 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Google Icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <!-- Tailwindcss -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -24,14 +25,15 @@
 </head>
 
 <!-- Background -->
+
 <body class="min-h-screen p-8 bg-black bg-gradient-to-r from-pink-100 via-purple-300 to-indigo-400">
 
     <!-- Mock iPhone -->
-    <section class="mockup2 w-[353px] mx-auto h-[708px] flex justify-center px-[22px]">
+    <section class="__mockup__iphone__navbar">
 
         <!-- Screen -->
-        <section class="mt-12 flex flex-col w-[308px] h-[640px] rounded-b-[40px]">
-            
+        <section class="__screen">
+
 
             <header class="grid grid-cols-[25%,auto,25%] my-3 mx-2 h-[20px]">
                 <a href="home.html" class="flex">
@@ -44,11 +46,12 @@
 
             <main class="flex flex-col h-[506px] px-8">
 
-                <input type="text" name="localizacao" placeholder="Endereço ou ponto de referência" class="outline-none flex flex-col border-b-2 pb-1 mt-10 text-xs">
-            
-                <a href="#" class="flex gap-6 mt-6">
-                    <i class="material-symbols-outlined self-center text-gray-700 text-[20px]">share_location</i>
-                    <span class="text-xs self-center text-gray-700">Usar localização atual</span>
+                <input type="text" name="localizacao" placeholder="Endereço ou ponto de referência"
+                    class="placeholder-slate-400 outline-none flex flex-col border-b-2 pb-1 mt-10">
+
+                <a href="#" class="flex gap-6 mt-8">
+                    <i class="text-[1.3rem] material-symbols-outlined self-center">share_location</i>
+                    <span class="self-center">Usar localização atual</span>
                 </a>
 
             </main>
@@ -57,19 +60,19 @@
             <footer class="grid grid-cols-4 gap-2 mt-5 h-[55px] rounded-b-[15px]">
                 <a class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-black">search</i>
-                    <span class="text-[11px] self-center text-black">Procurar</span>
+                    <span class="text-[0.7rem] self-center text-black">Procurar</span>
                 </a>
                 <a href="disponibilizar.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">add_circle</i>
-                    <span class="text-[11px] self-center text-gray-400">Disponibilizar</span>
+                    <span class="text-[0.7rem] self-center text-gray-400">Disponibilizar</span>
                 </a>
                 <a href="contratos.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">format_quote</i>
-                    <span class="text-[11px] self-center text-gray-400">Contratos</span>
+                    <span class="text-[0.7rem] self-center text-gray-400">Contratos</span>
                 </a>
                 <a href="perfil.html" class="flex flex-col justify-center gap-1">
                     <i class="material-symbols-outlined self-center text-gray-400">person</i>
-                    <span class="text-[11px] self-center text-gray-400">Perfil</span>
+                    <span class="text-[0.7rem] self-center text-gray-400">Perfil</span>
                 </a>
             </footer>
 

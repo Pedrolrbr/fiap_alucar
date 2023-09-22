@@ -4,7 +4,7 @@
 }
 
 .material-symbols-outlined {
-    color: #FFF;
+    color: #334155;
     font-variation-settings:
     'FILL' 0,
     'wght' 400,
@@ -12,31 +12,45 @@
     'opsz' 48
 }
 
-body{
-    color: #A6A6A6;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 0.9rem;
-}
-
-.mockup{
-    background-image: url(../images/iphone.png);
-    background-size:cover;
-}
-
-.mockup2{
+.__mockup__iphone__navbar{
     background-image: url(../images/iphone2.png);
     background-size:cover;
+    width: 353px;
+    height: 708px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
 }
 
-._font_inter{
-    font-family: 'Inter', sans-serif;
+.__mockup__iphone__splash{
+    background-image: url(../images/iphone.png);
+    background-size:cover;
+    width: 353px;
+    height: 708px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
 }
 
-._hide_scroll_bar::-webkit-scrollbar{
+.__screen{
+    color: #334155;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.875rem;
+    display: flex;
+    flex-direction: column;
+    width: 308px;
+    height: 640px;
+    border-radius: 0 0 40px 40px;
+    margin-top: 3rem;
+}
+
+.__hide__scroll__bar::-webkit-scrollbar{
     display: none;
 }
 
-._hide_scroll_bar{
+.__hide__scroll__bar{
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
