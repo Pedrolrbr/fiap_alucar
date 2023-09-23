@@ -64,3 +64,7 @@ body{
 select:required:invalid {
     color: #94a3b8;
 }
+
+select {
+    background-color: transparent;
+}
