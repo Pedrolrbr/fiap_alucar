@@ -12,15 +12,10 @@
     'opsz' 48
 }
 
-.__mockup__iphone__navbar{
-    background-image: url(../images/iphone2.png);
-    background-size:cover;
-    width: 353px;
-    height: 708px;
+body{
+    height: 100vh;
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 0;
+    background-image: linear-gradient(to right, #fce7f3, #d8b4fe, #818cf8);
 }
 
 .__mockup__iphone__splash{
@@ -30,7 +25,18 @@
     height: 708px;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    margin: auto;
+    padding: 0;
+}
+
+.__mockup__iphone__navbar{
+    background-image: url(../images/iphone2.png);
+    background-size:cover;
+    width: 353px;
+    height: 708px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
     padding: 0;
 }
 
