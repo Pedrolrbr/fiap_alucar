@@ -41,46 +41,40 @@
 
                 <section class="flex flex-col mt-16 gap-8">
 
-                    <div href="#" class="grid grid-cols-[30px,auto,10px] border-b-2 pb-1">
+                    <div href="#" class="grid grid-cols-[30px,auto] border-b-2 pb-1">
                         <i
-                            class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center w-full">directions_car</i>
-                        <input list="veiculo" name="veiculo" placeholder="Veículo"
-                            class="placeholder-slate-400 outline-none">
-                        <datalist id="veiculo">
-                            <option value="Meu veículo 1">
-                            <option value="Meu veículo 2">
-                        </datalist>
-                        <i
-                            class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center">keyboard_arrow_down</i>
+                            class="text-slate-700 text-[1.2rem] material-symbols-outlined self-center w-full">directions_car</i>
+                        <select id="veiculo" class="outline-none" required>
+                            <option value="" selected disabled hidden>Veículo</option>
+                            <option value="1">Fiat Argo Trekking - FBA-1297</option>
+                            <option value="2">Volkswagem Saveiro - CCB-2A83</option>
+                        </select>
                     </div>
 
                     <a href="disponibilizar_condicoes.html" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
                         <i
-                            class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center w-full">task_alt</i>
+                            class="text-slate-700 text-[1.2rem] material-symbols-outlined self-center w-full">task_alt</i>
                         <span>Condições</span>
-                        <i class="text-[1.3rem] material-symbols-outlined self-center">navigate_next</i>
+                        <i class="text-[1rem] material-symbols-outlined self-center">navigate_next</i>
                     </a>
 
-                    <div href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
+                    <div href="#" class="grid grid-cols-[30px,auto,10px] border-b-2 pb-1">
                         <i
-                            class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center w-full">attach_money</i>
+                            class="text-slate-700 text-[1.2rem] material-symbols-outlined self-center w-full">attach_money</i>
                         <input type="text" onKeyUp="mascaraMoeda(this, event)" size="12" value="" name="valor"
                             placeholder="R$ / hora" class="placeholder-slate-400 outline-none">
                     </div>
 
-                    <a href="#" class="grid grid-cols-[30px,1fr,10px] border-b-2 pb-1">
-                        <i class="text-[1.3rem] material-symbols-outlined self-center w-full">pace</i>
-                        <input list="tempo" name="tempo" placeholder="Fração de tempo"
-                            class="placeholder-slate-400 outline-none">
-                        <datalist id="tempo">
-                            <option value="Por hora">
-                            <option value="Por dia">
-                            <option value="Por semana">
-                            <option value="Por mês">
-                        </datalist>
-                        <i
-                            class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center">keyboard_arrow_down</i>
-                    </a>
+                    <div class="grid grid-cols-[30px,auto] border-b-2 pb-1">
+                        <i class="text-[1.2rem] material-symbols-outlined self-center w-full">pace</i>
+                        <select id="veiculo" class="outline-none" required>
+                            <option value="" selected disabled hidden>Fração de tempo</option>
+                            <option value="1">Por hora</option>
+                            <option value="2">Por dia</option>
+                            <option value="2">Por semana</option>
+                            <option value="2">Por mês</option>
+                        </select>
+                    </div>
 
                 </section>
 

@@ -43,7 +43,7 @@ body{
 .__screen{
     color: #334155;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     display: flex;
     flex-direction: column;
     width: 308px;
@@ -59,4 +59,8 @@ body{
 .__hide__scroll__bar{
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+select:required:invalid {
+    color: #94a3b8;
 }

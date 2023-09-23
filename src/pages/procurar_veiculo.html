@@ -39,7 +39,7 @@
                     <i class="material-symbols-outlined text-blue-600 text-sm">arrow_back_ios</i>
                     <span class="text-sm text-blue-600">Voltar</span>
                 </a>
-                <h2 class="font-bold text-black text-xs flex justify-center items-center">Buscar veículo</h2>
+                <h2 class="font-bold text-black  flex justify-center items-center">Buscar veículo</h2>
             </header>
 
 
@@ -48,59 +48,52 @@
                 <section class="flex flex-col mt-6 gap-6 px-7">
 
                     <div href="#" class="grid grid-cols-[auto,10px] border-b-2 pb-1">
-                        <input list="tipo" name="tipo" placeholder="Tipo" class="placeholder-slate-400 outline-none">
-                        <datalist id="tipo">
-                            <option value="Hatch Compacto">
-                            <option value="Sedan Compacto">
-                            <option value="Hatch Médio">
-                            <option value="Sedan Médio">
-                            <option value="Sedan Grande">
-                            <option value="Wagon">
-                            <option value="Utilitário Esportivo (SUV)">
-                            <option value="Caminhonete">
-                            <option value="Van">
-                        </datalist>
-                        <i
-                            class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center">keyboard_arrow_down</i>
+                        <select id="tipo" class="outline-none" required>
+                            <option value="" selected disabled hidden>Tipo</option>
+                            <option value="1">Hatch Compacto</option>
+                            <option value="2">Sedan Compacto</option>
+                            <option value="3">Hatch Médio</option>
+                            <option value="4">Sedan Médio</option>
+                            <option value="5">Sedan Grande</option>
+                            <option value="6">Wagon</option>
+                            <option value="7">Utilitário Esportivo (SUV)</option>
+                            <option value="8">Caminhonete</option>
+                            <option value="9">Van</option>
+                        </select>
+                    </div>
+
+                    <div href=" #" class="grid grid-cols-[auto,10px] border-b-2 pb-1">
+                        <select id="marca" class="outline-none" required>
+                            <option value="" selected disabled hidden>Marca</option>
+                            <option value="1">Chevrolet</option>
+                            <option value="2">Volkswagen</option>
+                            <option value="3">Ford</option>
+                            <option value="4">Fiat</option>
+                            <option value="5">Honda</option>
+                            <option value="6">Toyota</option>
+                            <option value="7">Nissan</option>
+                            <option value="8">Jeep</option>
+                            <option value="9">Hyundai</option>
+                        </select>
                     </div>
 
                     <div href="#" class="grid grid-cols-[auto,10px] border-b-2 pb-1">
-                        <input list="marca" name="marca" placeholder="Marca" class="placeholder-slate-400 outline-none">
-                        <datalist id="marca">
-                            <option value="Chevrolet">
-                            <option value="Volkswagen">
-                            <option value="Ford">
-                            <option value="Fiat">
-                            <option value="Honda">
-                            <option value="Toyota">
-                            <option value="Nissan">
-                            <option value="Jeep">
-                            <option value="Hyundai">
-                        </datalist>
-                        <i
-                            class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center">keyboard_arrow_down</i>
-                    </div>
-
-                    <div href="#" class="grid grid-cols-[auto,10px] border-b-2 pb-1">
-                        <input list="mdoelo" name="modelo" placeholder="Modelo"
-                            class="placeholder-slate-400 outline-none">
-                        <datalist id="modelo">
-                            <option value="Modelo1">
-                            <option value="Modelo2">
-                            <option value="Modelo3">
-                            <option value="Modelo4">
-                            <option value="Modelo5">
-                        </datalist>
-                        <i
-                            class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center">keyboard_arrow_down</i>
+                        <select id="modelo" class="outline-none" required>
+                            <option value="" selected disabled hidden>Modelo</option>
+                            <option value="1">Modelo1</option>
+                            <option value="2">Modelo2</option>
+                            <option value="3">Modelo3</option>
+                            <option value="4">Modelo4</option>
+                            <option value="5">Modelo5</option>
+                        </select>
                     </div>
 
                 </section>
 
 
-                <h4 class="mt-8 px-3 py-1 text-xs bg-gray-100 w-[]">Adicionais</h4>
+                <h4 class="mt-8 px-3 py-1 font-medium bg-gray-100 w-[]">Adicionais</h4>
 
-                <section class="flex flex-col mt-8 gap-4 text-xs px-7">
+                <section class="flex flex-col mt-8 gap-4  px-7">
 
                     <div class="flex gap-3 items-center">
                         <input type="checkbox" name="arcondicionado" id="arcondicionado" class="h-4 w-4">
