@@ -43,13 +43,133 @@
             </header>
 
 
-            <main class="flex flex-col h-[506px] px-5">
+            <main class="text-[0.875rem] flex flex-col h-[506px] overflow-y-scroll __hide__scroll__bar">
 
-                <!-- ---------------------------- -->
-                <!-- TO DO: Implementar tela aqui -->
-                <!-- ---------------------------- -->
+                <section name="informacoes">
+                    <section name="caracteristicas" class="flex flex-col mt-6 gap-6 px-7">
+                        <div href="#" class="grid grid-cols-[auto,10px] border-b-2 pb-1">
+                            <input list="tipo" name="tipo" placeholder="Tipo" class="placeholder-slate-400 outline-none">
+                            <datalist id="tipo">
+                                <option value="Hatch Compacto">
+                                <option value="Sedan Compacto">
+                                <option value="Hatch Médio">
+                                <option value="Sedan Médio">
+                                <option value="Sedan Grande">
+                                <option value="Wagon">
+                                <option value="Utilitário Esportivo (SUV)">
+                                <option value="Caminhonete">
+                                <option value="Van">
+                            </datalist>
+                            <i class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center">keyboard_arrow_down</i>
+                        </div>
+
+                        <div href="#" class="grid grid-cols-[auto,10px] border-b-2 pb-1">
+                            <input list="marca" name="marca" placeholder="Marca" class="placeholder-slate-400 outline-none">
+                            <datalist id="marca">
+                                <option value="Chevrolet">
+                                <option value="Volkswagen">
+                                <option value="Ford">
+                                <option value="Fiat">
+                                <option value="Honda">
+                                <option value="Toyota">
+                                <option value="Nissan">
+                                <option value="Jeep">
+                                <option value="Hyundai">
+                            </datalist>
+                            <i
+                                class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center">keyboard_arrow_down</i>
+                        </div>
+
+                        <div href="#" class="grid grid-cols-[auto,10px] border-b-2 pb-1">
+                            <input list="modelo" name="modelo" placeholder="Modelo"
+                                class="placeholder-slate-400 outline-none">
+                            <datalist id="modelo">
+                                <option value="Modelo1">
+                                <option value="Modelo2">
+                                <option value="Modelo3">
+                                <option value="Modelo4">
+                                <option value="Modelo5">
+                            </datalist>
+                            <i
+                                class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center">keyboard_arrow_down</i>
+                        </div>
+
+                        <div href="#" class="grid grid-cols-[auto,10px] border-b-2 pb-1">
+                            <input list="ano" name="ano" placeholder="Ano"
+                                class="placeholder-slate-400 outline-none">
+                            <datalist id="ano">
+                                <option value="Modelo1">
+                                <option value="Modelo2">
+                                <option value="Modelo3">
+                                <option value="Modelo4">
+                                <option value="Modelo5">
+                            </datalist>
+                            <i class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center">keyboard_arrow_down</i>
+                        </div>
+
+                        <div href="#" class="grid grid-cols-[auto,10px] border-b-2 pb-1">
+                            <input list="cor" name="cor" placeholder="Cor"
+                                class="placeholder-slate-400 outline-none">
+                            <datalist id="cor">
+                                <option value="Modelo1">
+                                <option value="Modelo2">
+                                <option value="Modelo3">
+                                <option value="Modelo4">
+                                <option value="Modelo5">
+                            </datalist>
+                            <i class="text-slate-700 text-[1.3rem] material-symbols-outlined self-center">keyboard_arrow_down</i>
+                        </div>
+
+                    </section>
+
+
+                    <h4 class="mt-8 px-3 py-1 text-xs bg-gray-100 w-[]">Adicionais</h4>
+
+                    <section name="adicionais" class="flex flex-col mt-8 gap-4 text-xs px-7">
+
+                        <div class="flex gap-3 items-center">
+                            <input type="checkbox" name="arcondicionado" id="arcondicionado" class="h-4 w-4">
+                            <label for="arcondicionado">Ar-condicionado</label>
+                        </div>
+
+                        <div class="flex gap-3 items-center">
+                            <input type="checkbox" name="engate" id="engate" class="h-4 w-4">
+                            <label for="engate">Engate p/ reboque</label>
+                        </div>
+
+                        <div class="flex gap-3 items-center">
+                            <input type="checkbox" name="sensor" id="sensor" class="h-4 w-4">
+                            <label for="sensor">Sensor de estacionamento</label>
+                        </div>
+
+                        <div class="flex gap-3 items-center">
+                            <input type="checkbox" name="camera" id="camera" class="h-4 w-4">
+                            <label for="camera">Camera de ré</label>
+                        </div>
+
+                        <div class="flex gap-3 items-center">
+                            <input type="checkbox" name="cambioautomatico" id="cambioautomatico" class="h-4 w-4">
+                            <label for="cambioautomatico">Câmbio automático</label>
+                        </div>
+
+                        <div class="flex gap-3 items-center">
+                            <input type="checkbox" name="multimidia" id="multimidia" class="h-4 w-4">
+                            <label for="multimidia">Sistema de som multimídia</label>
+                        </div>
+                    </section>
+                </section>
+
+                <section class="my-3 flex justify-end align-right mx-5">
+                    <a href="#" class="mt-5 bg-sky-600 rounded-full w-16 h-16 text-white flex justify-center items-center">
+                        <i class="material-symbols-outlined self-center text-white text-3xl">done</i>
+                    </a>
+                </section>
+
+                
 
             </main>
+
+            
 
 
             <footer class="grid grid-cols-4 gap-2 mt-5 h-[55px] rounded-b-[15px]">
